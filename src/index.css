@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme{
+  --font-serif: "Noto Serif TC", serif;
+  --font-sans: "Noto Sans TC", sans-serif;
+}
+
+:root {
+  @apply bg-black text-white font-serif;
+  scroll-behavior: smooth;
+}
+
+@keyframes out-rise-out {
+  0% {
+    top: 100%;
+  }
+
+  100% {
+    top: -50%;
+  }
+}
+
+p {
+  @apply text-2xl/12 p-4;
+}
