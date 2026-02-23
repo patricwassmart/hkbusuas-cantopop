@@ -40,8 +40,8 @@ function App() {
           <h3 className="text-lg my-4 text-zinc-400">
             50年代至現今的香港流行曲及美學演變
           </h3>
-          <span className="text-orange-400 text-lg">
-            下滾查看 <CircleChevronDown className="inline" />
+          <span className="text-orange-400 text-lg flex items-center gap-1">
+            下滾查看 <CircleChevronDown className="inline size-5" />
           </span>
           <div className="flex flex-col mt-8 gap-2">
             <span className="text-3xl font-bold">目錄</span>
